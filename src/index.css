@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.menu li a:hover {
+  background-color: rgba(0, 0, 0, 0) !important;
+  text-decoration: underline;
+}
+
+a.active {
+  background-color: rgba(0, 0, 0, 0) !important;
+  color: #f4853a !important;
+  font-weight: 700;
+}
+/* fa572c
+
+#F4853A */
